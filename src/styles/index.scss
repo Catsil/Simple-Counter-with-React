@@ -1,13 +1,35 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 
-/* 
-
-    You can write your own styles here...
+h1{
+    font-family: 'Rampart One', cursive ;
+    margin: 1rem;
+    font-size: 1rem;
+    color: green;
     
+}
+.container {
+    background-color: white;
+    font-size: 5rem;
+    border: black solid;
+    margin: 2rem;
+    border-radius: 1rem;
+    width: 6rem;
+    height: 8rem;
+    text-align: center;
+    font-family: 'Rampart One', cursive;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+}
+.number {
+    background-color: white;
+}
+.contador {
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+ 
+body {
+    background-image : url('https://images.pexels.com/photos/1070345/pexels-photo-1070345.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
